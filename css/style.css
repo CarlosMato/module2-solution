@@ -1,0 +1,56 @@
+section {
+	box-sizing: border-box;
+	margin-top: 5%;
+  	padding: 10px;
+  	background-color: grey;
+}
+
+.col1 {
+
+}
+@media (min-width: 992px){
+ 	.sec3 {
+ 		margin-left: 2%;
+  		width: 30%;
+  		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.sec2T {
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+  }
+  .sec1T{
+  	width: 80%;
+    float: left;	
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 767px){
+	.sec1M{
+  	width: 80%;
+    float: left;	
+  }
+}
+div{
+	width: 20%;
+  	height: 10%;
+  	border: 1px solid black;
+  	position: relative;
+  	margin-left: 81%;
+  	margin-top: 0%;
+}
+
+div >h5 {
+	
+	/*border-width: 50px;*/
+	/*position: relative;*/
+/*	left: 80%;*/
+	font-size: large;
+
+	
+
+}
